@@ -1,0 +1,30 @@
+{
+  "name": "restauracie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiptoma/restauracie.git"
+  },
+  "author": "Filip Toma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filiptoma/restauracie/issues"
+  },
+  "homepage": "https://github.com/filiptoma/restauracie#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "iconv-lite": "^0.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}
