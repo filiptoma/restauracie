@@ -19,9 +19,10 @@ switch (restaurantFlag) {
     break;
 }
 
-const reqUrl = `https://www.menicka.cz/api/iframe/?id=${restaurantId}`;
+const apiUrl = `https://www.menicka.cz/api`;
 
 module.exports = {
   restaurantName,
-  reqUrl,
+  restaurantId,
+  apiUrl,
 };

@@ -1,4 +1,4 @@
-const { reqUrl } = require('./config');
+const { apiUrl, restaurantId } = require('./config');
 
 const axios = require('axios'); // HTTP requests
 
@@ -7,7 +7,7 @@ const axios = require('axios'); // HTTP requests
  * @returns data
  */
 module.exports.menickaGet = async () => {
-  return await axios.get(reqUrl, {
+  return await axios.get(`${apiUrl}/iframe?id=${restaurantId}`, {
     responseType: 'arraybuffer',
     reponseEncoding: 'binary',
   });
